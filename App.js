@@ -5,9 +5,10 @@ import LoginPage from './src/pages/LoginPage';
 
 const appNavigator = createStackNavigator(
   {
+
     'Login': {
       screen: LoginPage,
-      navigationOptions:{
+      navigationOptions: {
         headerShown: false,
       }
     },
@@ -15,17 +16,19 @@ const appNavigator = createStackNavigator(
     'Habitos': {
       screen: HabitosPage,
       navigationOptions: {
-        title: 'Hábitos',
+        title: 'Controle Fita LED',
         headerTitleStyle: {
           textAlign: 'left',
           fontSize: 20,
         }
       }
-    }
+    },
+
+
   },
   {
     defaultNavigationOptions: {
-      title: 'MyHabitTimeLine',
+      title: 'Controle Fita LED',
       headerTintColor: 'white',
       headerStyle: {
         backgroundColor: '#6542f4',

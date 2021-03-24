@@ -40,7 +40,7 @@ export default class LoginPage extends React.Component {
 
     acessarApp() {
         this.setState({ isLoading: false });
-        //this.props.navigation.replace('Habitos');
+        this.props.navigation.replace('Habitos');
     }
 
     renderButton() {
@@ -293,6 +293,5 @@ const styles = StyleSheet.create({
     },
     title : {
         alignItems: 'center',
-        textCo
     }
 });
