@@ -14,11 +14,10 @@ export default class HabitosPage extends React.Component {
 
     this.state = {
       habitos: [],
-      dataLeds: [],
       modalVisible: false,
       newLedName: "",
       qtdLeds: "",
-
+      dataLeds: [],
     }
   }
 

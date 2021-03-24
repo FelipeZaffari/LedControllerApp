@@ -16,6 +16,7 @@ const HabitosList = props => {
 
     return (
         <View>
+            
             {ret}
         </View>
     )
